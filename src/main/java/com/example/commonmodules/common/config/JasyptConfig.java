@@ -24,7 +24,7 @@ public class JasyptConfig {
         log.info("password ==> {}", password);
 
         config.setPassword(password);
-        config.setAlgorithm("PBEWITHHMACSHA512ANDAES_256");
+        config.setAlgorithm("PBEWithMD5AndDES");
         config.setKeyObtentionIterations("1000");
         config.setPoolSize("1");
         config.setProviderName("SunJCE");
