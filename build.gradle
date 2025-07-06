@@ -57,8 +57,8 @@ publishing {
             name = "nexus"
             url = uri("http://localhost:8081/repository/common-modules/") // 🧷 SNAPSHOT 저장소 주소로 변경
             credentials {
-                username = "admin"         // 🔒 ID
-                password = "admin"     // 🔒 비밀번호
+                username = project.findProperty("nexusUsername") ?: ""
+                password = project.findProperty("nexusPassword") ?: ""
             }
             allowInsecureProtocol = true // ❗ HTTP 사용 시 필요 (https가 아니라면)
         }
