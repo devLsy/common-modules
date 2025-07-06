@@ -24,6 +24,7 @@ API 서비스에서 공통 기능을 분리하여 **재사용**할 수 있도록
 
 `gradle.properties`는 `.gitignore`에 포함되어 있습니다.  
 **보안상 반드시 포함시켜야 합니다.**
+<span style="color:red; font-weight:bold;">※ 보안상 반드시 포함시켜야 합니다.</span>
 
 ```properties
 nexusUsername=your-nexus-username
