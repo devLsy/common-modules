@@ -23,8 +23,7 @@ API 서비스에서 공통 기능을 분리하여 **재사용**할 수 있도록
 루트 디렉토리에 아래와 같이 생성하고 nexus 계정정보를 적어줍니다.
 
 `gradle.properties`는 `.gitignore`에 포함되어 있습니다.  
-**보안상 반드시 포함시켜야 합니다.**
-<span style="color:red; font-weight:bold;">※ 보안상 반드시 포함시켜야 합니다.</span>
+❗ **보안상 반드시 포함시켜야 합니다.**
 
 ```properties
 nexusUsername=your-nexus-username
