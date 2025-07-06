@@ -6,7 +6,7 @@ plugins {
 }
 
 group = 'com.example'
-version = '0.0.15-SNAPSHOT'
+version = '0.0.16-SNAPSHOT'
 description = '공통 유틸 jar'
 
 java {
@@ -15,19 +15,8 @@ java {
     }
 }
 
-configurations {
-    compileOnly {
-        extendsFrom annotationProcessor
-    }
-}
-
 // 💡 실행 가능한 JAR은 만들지 않고, 일반 JAR만 만들도록 설정
-bootJar {
-    enabled = false
-}
-jar {
-    enabled = true
-}
+bootJar.enabled = false
 
 repositories {
     mavenCentral()
