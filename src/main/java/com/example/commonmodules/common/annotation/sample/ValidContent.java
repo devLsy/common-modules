@@ -1,6 +1,6 @@
 package com.example.commonmodules.common.annotation.sample;
 
-import com.miroit.contentapi.global.validate.custom.sample.CustomContentValidator;
+import com.example.commonmodules.common.validate.sample.CustomContentValidator;
 import jakarta.validation.Constraint;
 
 import java.lang.annotation.ElementType;

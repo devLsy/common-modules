@@ -1,6 +1,6 @@
 package com.example.commonmodules.common.annotation.file;
 
-import com.miroit.contentapi.global.validate.custom.file.CustomNotEmptyFileValidator;
+import com.example.commonmodules.common.validate.custom.file.CustomNotEmptyFileValidator;
 import jakarta.validation.Constraint;
 
 import java.lang.annotation.ElementType;
