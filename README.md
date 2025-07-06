@@ -8,7 +8,7 @@ API 서비스에서 공통 기능을 분리하여 **재사용**할 수 있도록
 ---
 
 ## ✅ 사용 목적
-- 공통 유틸리티, 예외 처리, 필터, AOP, 설정 등을 모듈화
+- 공통 유틸리티, 예외 처리, AOP, 설정 등을 모듈화
 - 다수의 API 서비스에서 중복 없이 재사용 가능
 - 관리와 유지보수 효율성 향상
 
@@ -45,6 +45,7 @@ nexusPassword=your-nexus-password
 
 ```groovy
 repositories {
+    // 넥서스 저장소 추가
     maven {
         // 넥서스 공통모듈 저장소 경로
         url "http://localhost:8081/repository/common-modules/"
